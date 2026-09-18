@@ -26,31 +26,29 @@ function About() {
           </h2>
         </ScrollReveal>
 
-        <ScrollReveal
-          className="about-content"
-          direction="right"
-          delay={0.15}
-        >
-          <p className="about-intro">
-            I'm Sumit, a Full Stack Developer focused
-            on building modern, responsive and
-            user-focused web applications.
-          </p>
+        <div className="about-content">
 
-          <p>
-            I work across the frontend and backend,
-            using React JS, Node JS, Express JS,
-            REST APIs and databases to turn ideas
-            into functional software.
-          </p>
+  <p className="about-intro">
+    I'm Sumit, a Full Stack Developer focused
+    on building modern, responsive and
+    user-focused web applications.
+  </p>
 
-          <p>
-            I enjoy solving problems, learning new
-            technologies and creating experiences
-            that are both visually engaging and
-            technically solid.
-          </p>
-        </ScrollReveal>
+  <p>
+    I work across the frontend and backend,
+    using React JS, Node JS, Express JS,
+    REST APIs and databases to turn ideas
+    into functional software.
+  </p>
+
+  <p>
+    I enjoy solving problems, learning new
+    technologies and creating experiences
+    that are both visually engaging and
+    technically solid.
+  </p>
+
+</div>
 
       </div>
 

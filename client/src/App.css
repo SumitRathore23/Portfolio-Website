@@ -3929,3 +3929,61 @@
     overflow-x: hidden;
   }
 }
+/* ========================================
+   ABOUT MOBILE FIX
+======================================== */
+
+@media (max-width: 768px) {
+
+  .about-section {
+    width: 100%;
+    min-height: auto;
+    height: auto;
+    padding: 80px 20px;
+    overflow: hidden;
+  }
+
+  .about-layout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-heading {
+    width: 100%;
+  }
+
+  .about-heading h2 {
+    width: 100%;
+    font-size: clamp(2.5rem, 11vw, 4rem);
+    line-height: 1;
+    letter-spacing: -2px;
+  }
+
+  .about-content {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+
+  .about-content p {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .about-intro {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+  }
+
+  .about-marquee {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+}

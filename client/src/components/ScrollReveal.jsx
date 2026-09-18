@@ -7,10 +7,10 @@ function ScrollReveal({
   direction = "up",
 }) {
   const directions = {
-    up: { y: 70, x: 0 },
-    down: { y: -70, x: 0 },
-    left: { y: 0, x: -70 },
-    right: { y: 0, x: 70 },
+    up: { y: 50, x: 0 },
+    down: { y: -50, x: 0 },
+    left: { y: 0, x: -50 },
+    right: { y: 0, x: 50 },
   };
 
   return (
@@ -27,12 +27,12 @@ function ScrollReveal({
       }}
       viewport={{
         once: true,
-        amount: 0.05,
-        margin: "0px 0px -50px 0px",
+        amount: 0.2,
+        margin: "0px 0px 100px 0px",
       }}
       transition={{
         duration: 0.8,
-        delay,
+        delay: delay,
         ease: [0.22, 1, 0.36, 1],
       }}
     >
