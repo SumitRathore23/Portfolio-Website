@@ -3870,3 +3870,62 @@
         font-size: 10px;
     }
 }
+/* ================================
+   ABOUT - MOBILE
+================================ */
+
+.about-section {
+  width: 100%;
+  min-height: auto;
+  height: auto;
+  padding: 90px 20px 70px;
+  overflow: hidden;
+}
+
+.about-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-heading,
+.about-content {
+  width: 100%;
+  max-width: 100%;
+}
+
+.about-heading h2 {
+  font-size: clamp(2.5rem, 12vw, 4rem);
+  line-height: 0.95;
+  word-break: normal;
+}
+
+.about-content {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.about-intro {
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.about-marquee {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 60px;
+}
+@media (max-width: 768px) {
+  html,
+  body,
+  #root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
