@@ -115,6 +115,7 @@ function Hero() {
           HELLO, I'M
         </motion.p>
 
+        {/* Hero Title */}
         <div className="hero-title-wrapper">
           <motion.h1
             initial={{
@@ -142,6 +143,7 @@ function Hero() {
           </div>
         </div>
 
+        {/* Hero Subtitle */}
         <motion.h2
           initial={{
             opacity: 0,
@@ -159,6 +161,7 @@ function Hero() {
           FULL STACK DEVELOPER
         </motion.h2>
 
+        {/* Hero Description */}
         <motion.p
           className="hero-description"
           initial={{
@@ -179,6 +182,7 @@ function Hero() {
           Express and REST APIs.
         </motion.p>
 
+        {/* Hero Buttons */}
         <motion.div
           className="hero-buttons"
           initial={{
@@ -194,14 +198,26 @@ function Hero() {
             duration: 0.8,
           }}
         >
+          {/* View Projects */}
           <a href="#projects">
             <span>VIEW PROJECTS</span>
             <span className="button-arrow">↗</span>
           </a>
 
+          {/* Contact Me */}
           <a href="#contact">
             <span>CONTACT ME</span>
             <span className="button-arrow">↗</span>
+          </a>
+
+          {/* Download Resume */}
+          <a
+            href="/resume.pdf"
+            download="Sumit-Resume.pdf"
+            className="resume-button"
+          >
+            <span>DOWNLOAD RESUME</span>
+            <span className="button-arrow">↓</span>
           </a>
         </motion.div>
       </motion.div>
@@ -220,7 +236,6 @@ function Hero() {
         }}
       >
         <span>SCROLL</span>
-
         <div></div>
       </motion.div>
 
